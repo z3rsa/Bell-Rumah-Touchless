@@ -1,0 +1,52 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "e5ef91bc8829f34bd23069e543781f1c",
+    "entities": [
+      {
+        "tableName": "Data",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`uid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `Jarak` TEXT, `Suhu` TEXT, `Waktu` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "uid",
+            "columnName": "uid",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "jarak",
+            "columnName": "Jarak",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "suhu",
+            "columnName": "Suhu",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "waktu",
+            "columnName": "Waktu",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "uid"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e5ef91bc8829f34bd23069e543781f1c')"
+    ]
+  }
+}

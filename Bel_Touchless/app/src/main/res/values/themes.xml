@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="LoginTextField" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">@dimen/editText_width_default</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="LoginButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">@dimen/button_width_default</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:backgroundTint">@color/colorGreen</item>
+    </style>
+
+    <style name="Test" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="color">@color/myBlue</item>
+    </style>
+
+    <style name="LoginButton.small">
+        <item name="android:layout_width">@dimen/button_width_small</item>
+    </style>
+
+    <style name="LoginButton.large">
+        <item name="android:layout_width">@dimen/button_width_large</item>
+    </style>
+</resources>

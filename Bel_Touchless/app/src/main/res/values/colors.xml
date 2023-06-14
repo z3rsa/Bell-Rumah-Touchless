@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="design_default_color_primary">#2196F3</color>
+    <color name="design_default_color_primary_dark">#2196F3</color>
+    <color name="purple_200">#bc36eb</color>
+    <color name="purple_500">#bc26eb</color>
+    <color name="purple_700">#bc26ab</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorGreen">#a4c639</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#0000ff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="gokil">#2196F3</color>
+    <color name="lemon">#ECE4B7</color>
+    <color name="Fawn">#E6AA68</color>
+    <color name="Bud_Green">#7FB069</color>
+    <color name="Navy">#0a192f</color>
+    <color name="Light_Navy">#112240</color>
+    <color name="Lightest_Navy">#233554</color>
+    <color name="GreenS">#64ffda</color>
+    <color name="Slate">#8892b0</color>
+    <color name="Light_Slate">#a8b2d1</color>
+    <color name="Lightest_Slate">#ccd6f6</color>
+    <color name="Outer_space">#041424</color>
+    <color name="myBlue">#2196F3</color>
+</resources>

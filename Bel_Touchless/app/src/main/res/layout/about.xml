@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="65dp"
+        app:itemIconTint="@color/bottom_navigation_color"
+        app:itemTextColor="@color/bottom_navigation_color"
+        app:menu="@menu/bottom_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/bellAbout"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:src="@drawable/bell_1096280_960_720"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/namaAplikasi"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Bel Rumah Touchless"
+        android:textSize="18sp"
+        android:layout_below="@id/bellAbout"
+        android:textColor="@color/myBlue"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/layerBawah"
+        android:layout_width="match_parent"
+        android:layout_above="@id/bottomNavigationView"
+        android:src="@drawable/bg_rounded_setengah_biru"
+        android:layout_height="99dp" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Nawwaf Minnatallah"
+        android:textColor="#FDFDFD"
+        android:layout_above="@id/bottomNavigationView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvNama"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="dibuat oleh"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvInformasi"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Aplikasi masih dalam tahap pengembangan"
+        android:textColor="#2196F3"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvSkripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvInformasi"
+        android:layout_alignLeft="@id/tvInformasi"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Skripsi 2022 - Universitas Gunadarma"
+        android:textColor="#2196F3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvThanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvVersi"
+        android:layout_alignLeft="@id/tvVersi"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Terimakasih."
+        android:textColor="#2196F3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvVersi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvInformasi"
+        android:layout_alignLeft="@id/tvInformasi"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Version 1.0 - 2022"
+        android:textColor="#2196F3"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

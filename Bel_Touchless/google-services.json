@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "192960584902",
+    "firebase_url": "https://bel-rumah-default-rtdb.firebaseio.com",
+    "project_id": "bel-rumah",
+    "storage_bucket": "bel-rumah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192960584902:android:32ce93fff60074062fcbc7",
+        "android_client_info": {
+          "package_name": "com.example.bel_touchless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192960584902-udtep23mkavcut4kumuotk5r9c01n4gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwuq5ngC_piqsucrJ1UvbERwNpLHXV5gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192960584902-udtep23mkavcut4kumuotk5r9c01n4gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
