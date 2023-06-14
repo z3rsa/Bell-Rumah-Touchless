@@ -26,24 +26,24 @@ You can test the mobile application here [Google Drive](https://drive.google.com
 
 #### Splash Screen
 
-<img src="/images/splash_screen.jpg" alt="Splash Screen" width="300">
+<img src="https://github.com/z3rsa/Bell-Rumah-Touchless/blob/main/images/splash_screen.jpg?raw=true" alt="Splash Screen" width="300">
 
 #### Home
 
-<img src="/images/home.jpg" alt="Home Page" width="300">
+<img src="https://github.com/z3rsa/Bell-Rumah-Touchless/blob/main/images/home.jpg?raw=true" alt="Home Page" width="300">
 
 #### Logs
 
-<img src="/images/logs.jpg" alt="Logs Page" width="300">
+<img src="https://github.com/z3rsa/Bell-Rumah-Touchless/blob/main/images/logs.jpg?raw=true" alt="Logs Page" width="300">
 
 #### About
 
-<img src="/images/about.jpg" alt="About Page" width="300">
+<img src="https://github.com/z3rsa/Bell-Rumah-Touchless/blob/main/images/about.jpg?raw=true" alt="About Page" width="300">
 
 #### Notification
 
-<img src="/images/notification.jpg" alt="Notification" width="300">
+<img src="https://github.com/z3rsa/Bell-Rumah-Touchless/blob/main/images/notification.jpg?raw=true" alt="Notification" width="300">
 
 #### Notification Alert
 
-<img src="/images/notification.jpg" alt="Notification Alert" width="300">
+<img src="https://github.com/z3rsa/Bell-Rumah-Touchless/blob/main/images/notification_alert.jpg?raw=true" alt="Notification Alert" width="300">
