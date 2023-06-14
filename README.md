@@ -19,3 +19,31 @@ Did you know that the "Bell Rumah Touchless" project was inspired by the need fo
 - Sensor MLX90614 (non-contact temperature measurements)
 - Sensor Ultrasonik HY-SRF05
 - OLED I2C 0.96 (Organic Light Emitting Diode)
+
+You can test the mobile application here [Google Drive](https://drive.google.com/drive/folders/19Wj1T0dDXE2XtkEN7SM8olTxduIrjJLD?usp=drive_link).
+
+### Mobile Application (Bel Rumah Touchless):
+
+#### Splash Screen
+
+<img src="/images/splash_screen.jpg" alt="Splash Screen" width="300">
+
+#### Home
+
+<img src="/images/home.jpg" alt="Home Page" width="300">
+
+#### Logs
+
+<img src="/images/logs.jpg" alt="Logs Page" width="300">
+
+#### About
+
+<img src="/images/about.jpg" alt="About Page" width="300">
+
+#### Notification
+
+<img src="/images/notification.jpg" alt="Notification" width="300">
+
+#### Notification Alert
+
+<img src="/images/notification.jpg" alt="Notification Alert" width="300">
